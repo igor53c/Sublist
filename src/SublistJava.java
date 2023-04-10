@@ -16,7 +16,7 @@ public class SublistJava<T> {
             if (isSublist(list1, list2)) {
                 return CheckResult.SUPERLIST;
             }
-        } else if (list1.size() <= list2.size()) {
+        } else {
             if (isSublist(list1, list2)) {
                 return CheckResult.SUBLIST;
             } else if (isSublist(list2, list1)) {
